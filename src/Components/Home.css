@@ -305,6 +305,10 @@ header {
   color: inherit;
   text-decoration: none;
 }
+.product-link h2{
+  font-size: 4rem;
+  text-align: center;
+}
 @media screen and (max-width: 1200px) {
   
 
@@ -394,6 +398,71 @@ header {
     width: 100%; 
     height: auto; 
   }
+}
+@media screen and (max-width: 480px){
+  
+  .product-list-left{
+    margin-left: 0; 
+    margin-top: 0;
+    font-size: 3rem;
+  }
+ 
+  .product-link,
+  .product-list-right {
+    margin-left: 0; 
+    
+   grid-template-columns: auto;
+    
+    
+   
+  }
+  .product-link h2{
+    font-size: 2rem;
+    text-align: center;
+  }
+ 
+
+  .product-list {
+    
+   grid-template-columns: 1fr;
+  
+  }
+  .product-list-footer .product-item{
+    width: 80%;
+    
+  }
+  
+  
+
+
+  .midhome {
+    flex-direction: column; 
+    margin: 2rem; 
+    margin-top: 10rem; 
+    font-size: 2.5rem; 
+  }
+
+  .shoeCollection {
+    flex-direction: column;
+    margin-top: 10rem; 
+    font-size: 2.5rem;
+  }
+
+  .midimg,
+  .midimg2 {
+    flex-direction: column; 
+    margin: 2rem;
+  }
+
+  .midimg img,
+  .midimg2 img {
+    width: 100%; 
+    height: auto; 
+  }
+  .home-container{
+    overflow: hidden;
+  }
+
 }
 
 
