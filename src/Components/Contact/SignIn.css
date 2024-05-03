@@ -1,0 +1,191 @@
+.SignIn{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: auto;
+  -webkit-box-shadow: -4px 7px 57px 8px rgba(0,0,0,0.61);
+   -moz-box-shadow: -4px 7px 57px 8px rgba(0,0,0,0.61);
+  box-shadow: -4px 7px 57px 8px rgba(0,0,0,0.61);
+  border-radius: 2rem;
+  margin: 0;
+  
+
+}
+.SignIn img{
+  margin-left: 6rem;
+  width: 400px;
+}
+.signin-container {
+  
+    margin: 50px auto;
+    padding: 30px;
+    width: 300px;
+    border-radius: 2rem;
+    background-color: #cfdaea;
+    -webkit-box-shadow: -4px 7px 57px -10px rgba(0,0,0,0.63);
+    -moz-box-shadow: -4px 7px 57px -10px rgba(0,0,0,0.63);
+    box-shadow: -4px 7px 57px -10px rgba(0,0,0,0.63);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+ 
+  }
+  
+  .signin-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .signin-container button{
+    font-size: 1.4rem;
+    width: 100%; 
+    margin-left: 6px;
+    padding: .2rem;
+    border-radius: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+ 
+  
+  .form-group button[type="submit"] {
+    width: 100%;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+   
+  }
+  
+  .form-group button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .signin {
+    max-width: 400px; 
+    display: flex;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    gap: 0.75rem;
+    color: #c4d2dc;
+    background-color: #19242b;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0, 0.87, 0.12, 1);
+    margin-top: 3rem;
+    border-radius: 5px;
+  }
+  
+  .signin:hover {
+    transform: scale(1.025);
+  }
+  
+  .signin:active {
+    transform: scale(0.975);
+  }
+  
+  button svg {
+    height: 24px;
+    width: auto;
+    padding-left: 1rem;
+  }
+  h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    
+  }
+  .Underline{
+    width: 60%;
+    color: #000;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 2rem;
+  }
+  .success-message{
+    text-align: center;
+  }
+@media only screen and (max-width: 1024px) {
+  .SignIn {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .SignIn img {
+    margin-left: 0;
+    width: 300px;
+    margin-bottom: 2rem;
+  }
+
+  .signin-container {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .form-group button[type="submit"] {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .Underline {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .SignIn {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .SignIn img {
+    width: 250px;
+    margin-bottom: 1rem;
+  }
+
+  .signin-container {
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .form-group button[type="submit"] {
+    padding: 12px;
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .Underline {
+    width: 90%;
+  }
+}
