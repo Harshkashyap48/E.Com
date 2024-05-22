@@ -6,3 +6,7 @@
 body::-webkit-scrollbar {
   width: 0; 
 }
+::selection{
+  background-color:rgb(120, 229, 120);
+  color: white;
+}

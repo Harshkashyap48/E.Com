@@ -7,6 +7,9 @@
   background-color: #fff;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  -webkit-box-shadow: 2px 3px 35px 1px rgba(0,0,0,0.64);
+  -moz-box-shadow: 2px 3px 35px 1px rgba(0,0,0,0.64);
+  box-shadow: 2px 3px 35px 1px rgba(0,0,0,0.64);
 }
 .cart-container h2{
   margin-top: 1rem;
@@ -128,5 +131,29 @@
 @keyframes close {
   100% {
     opacity: 1;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .cart-container {
+    width: 100%;
+    height: auto;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    max-height: 50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .cart-container {
+    width: 80%;
+    height: auto;
+    top: 9rem;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    max-height: 50%;
+    border: 1px solid blueviolet;
+
   }
 }

@@ -5,8 +5,9 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
 import Shop from './Components/Shop';
-import './App.css';
 import Footer from './Components/Footer';
+import './App.css';
+
 
 
 

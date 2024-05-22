@@ -18,8 +18,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; 
-    padding: 20px; 
+    gap: 1.25rem; 
+    padding: 1.25rem; 
 }
 .imgSection{
     display: flex;
@@ -41,9 +41,9 @@
     height: auto;
 }
 .section {
-    flex: 1 1 300px; 
-    padding: 20px;
-    border-radius: 8px;
+    flex: 1 1 18.75rem; 
+    padding: 1.25rem;
+    border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
     overflow: hidden;
@@ -58,14 +58,14 @@
 }
 
 .section h2 {
-    font-size: 22px;
-    margin-bottom: 10px;
+    font-size: 1.37rem;
+    margin-bottom: 0.625rem;
 }
 
 .section p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #555;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .section ul {
@@ -74,8 +74,8 @@
 }
 
 .section ul li {
-    margin-bottom: 5px;
-    font-size: 16px;
+    margin-bottom: 0.3125rem;
+    font-size: 1rem;
     color: #555;
 }
 
